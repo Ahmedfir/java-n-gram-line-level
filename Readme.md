@@ -1,6 +1,6 @@
 # n-gram Naturalness-based lines ranking
 
-This is the implementation called by the python scripts under: https://github.com/Ahmedfir/ngramlineloc
+This is the implementation called by the python scripts under: https://github.com/Ahmedfir/CodeBERT-nt and https://github.com/Ahmedfir/ngramlineloc
 
 ### Typical usage: 
 - input: List of java files from a project, whose lines will be ranked.
