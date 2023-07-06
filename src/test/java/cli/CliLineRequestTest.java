@@ -20,7 +20,7 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 
-public class CliRequestTest {
+public class CliLineRequestTest {
 
     private static final Path TMP_DIR = Paths.get("src/test/resources/tmp").toAbsolutePath();
 

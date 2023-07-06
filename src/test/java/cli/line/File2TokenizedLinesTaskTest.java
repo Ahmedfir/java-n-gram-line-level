@@ -1,4 +1,4 @@
-package cli;
+package cli.line;
 
 import org.junit.Before;
 import org.junit.Test;

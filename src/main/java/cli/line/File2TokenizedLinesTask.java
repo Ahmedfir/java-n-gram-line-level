@@ -1,6 +1,7 @@
-package cli;
+package cli.line;
 
 
+import cli.CliRequest;
 import parser.Line;
 import tokenizer.line.AbstractLineTokenizer;
 import tokenizer.line.java.JavaLemmeLineTokenizer;

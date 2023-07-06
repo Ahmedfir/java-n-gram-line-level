@@ -2,6 +2,7 @@ package utils;
 
 import java.util.ArrayList;
 import java.util.Collection;
+import java.util.Iterator;
 import java.util.List;
 
 public final class Checker {
@@ -22,8 +23,21 @@ public final class Checker {
         return tmp.isEmpty();
     }
 
+    public static <T> boolean allItemsNull(Iterable<T> c){
+        for (T t : c) {
+            if (t != null) {
+                return false;
+            }
+        }
+        return true;
+    }
+
     public static boolean isTrimNlOrEmpty(Collection<?> c) {
         return c == null || c.isEmpty() || allItemsNull(c);
+    }
+
+    public static boolean isTrimNlOrEmpty(Iterable<?> c) {
+        return c == null || allItemsNull(c) ;
     }
 
     public static boolean isNlOrEmpty(String s) {

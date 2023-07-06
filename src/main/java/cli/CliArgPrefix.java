@@ -2,7 +2,6 @@ package cli;
 
 // @see {}
 enum CliArgPrefix {
-    LEVEL("-level="),
     TOKENIZER("-tokenizer="),
     THRESHOLD("-threshold="),
     SIZE("-n="),
